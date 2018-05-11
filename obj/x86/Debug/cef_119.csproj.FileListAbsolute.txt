@@ -1,0 +1,6 @@
+E:\_cs\cef\cef_119\bin\x86\Debug\cef_119.exe
+E:\_cs\cef\cef_119\bin\x86\Debug\cef_119.pdb
+E:\_cs\cef\cef_119\obj\x86\Debug\cef_119.Properties.Resources.resources
+E:\_cs\cef\cef_119\obj\x86\Debug\cef_119.csproj.GenerateResource.Cache
+E:\_cs\cef\cef_119\obj\x86\Debug\cef_119.exe
+E:\_cs\cef\cef_119\obj\x86\Debug\cef_119.pdb
