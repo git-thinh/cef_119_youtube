@@ -1,0 +1,1 @@
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.Wpf.Test\obj\Debug\CefSharp.Wpf.Test.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.Example\obj\Debug\CefSharp.Example.Properties.Resources.resources
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.Example\obj\Debug\CefSharp.Example.csproj.GenerateResource.Cache
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\bin\Debug\CefSharp.Example.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\bin\Debug\CefSharp.Example.pdb
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\bin\Debug\CefSharp.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\obj\Debug\CefSharp.Example.Properties.Resources.resources
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\obj\Debug\CefSharp.Example.csproj.GenerateResource.Cache
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\obj\Debug\CefSharp.Example.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Example\obj\Debug\CefSharp.Example.pdb

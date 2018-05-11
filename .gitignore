@@ -23,3 +23,13 @@ bin/x86/Debug/cef_119.vshost.exe.config
 bin/x86/Debug/cef_119.exe.config
 obj/x86/Debug/cef_119.BrowserForm.resources
 obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/x86/Debug/cef_119.csprojResolveAssemblyReference.cache
+Debug/nunit.framework.dll
+Debug/CefSharp.WinForms.Example.vshost.exe.manifest
+Debug/CefSharp.WinForms.Example.vshost.exe
+Debug/CefSharp.WinForms.Example.pdb
+Debug/CefSharp.WinForms.Example.exe
+Debug/CefSharp.WinForms.dll
+Debug/CefSharp.Example.pdb
+Debug/CefSharp.Example.dll
+Debug/CefSharp.dll

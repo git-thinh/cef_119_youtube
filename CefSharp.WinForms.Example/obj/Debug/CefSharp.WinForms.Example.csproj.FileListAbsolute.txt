@@ -1,0 +1,14 @@
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.csprojResolveAssemblyReference.cache
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.AboutBox.resources
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.Browser.resources
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.Properties.Resources.resources
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.csproj.GenerateResource.Cache
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.csprojResolveAssemblyReference.cache
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.AboutBox.resources
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.Browser.resources
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.Properties.Resources.resources
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.csproj.GenerateResource.Cache
+E:\_cs\cef\cef_119_youtube\Debug\CefSharp.WinForms.Example.exe
+E:\_cs\cef\cef_119_youtube\Debug\CefSharp.WinForms.Example.pdb
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.exe
+E:\_cs\cef\cef_119_youtube\CefSharp.WinForms.Example\obj\Debug\CefSharp.WinForms.Example.pdb

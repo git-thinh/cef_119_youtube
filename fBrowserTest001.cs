@@ -13,11 +13,14 @@ namespace cef_119
     public partial class fBrowserTest001 : Form, IRequestHandler
     {
         private readonly WebView web_view;
+        //const string url = "https://www.google.com/maps";
+        //const string url = "http://web20office.com/crm/demo/system/login.php?r=/crm/demo";
+        const string url = "file:///G:/_EL/Document/data_el2/book/84-cau-truc-va-cau-vi-du-thong-dung-trong-tieng-anh-giao-tiep.pdf";
 
         public fBrowserTest001()
         {
             InitializeComponent();
-            web_view = new WebView("http://web20office.com/crm/demo/system/login.php?r=/crm/demo", new BrowserSettings());
+            web_view = new WebView(url, new BrowserSettings());
             web_view.Dock = DockStyle.Fill;
             web_view.RequestHandler = this;
             this.Controls.Add(web_view);

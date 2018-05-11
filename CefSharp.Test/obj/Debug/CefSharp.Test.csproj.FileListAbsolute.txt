@@ -1,0 +1,11 @@
+E:\_cs\cef\CefSharp-1.19.0\CefSharp.Test\obj\Debug\CefSharp.Test.csprojResolveAssemblyReference.cache
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\obj\Debug\CefSharp.Test.csprojResolveAssemblyReference.cache
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.Test.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.Test.pdb
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.Example.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.WinForms.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\nunit.framework.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\bin\Debug\CefSharp.Example.pdb
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\obj\Debug\CefSharp.Test.dll
+E:\_cs\cef\cef_119_youtube\CefSharp.Test\obj\Debug\CefSharp.Test.pdb
