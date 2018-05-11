@@ -1,7 +1,7 @@
 ﻿using CefSharp;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 using System.Windows.Forms;
 
 namespace cef_119
@@ -19,16 +19,18 @@ namespace cef_119
              
             if (!CEF.Initialize(new Settings()))
             {
-                if (Environment.GetCommandLineArgs().Contains("--type=renderer"))
-                {
-                    Environment.Exit(0);
-                }
-                else
-                {
-                    return;
-                }
-            } 
-            Application.Run(new BrowserForm());
+                ////////if (Environment.GetCommandLineArgs().Contains("--type=renderer"))
+                ////////{
+                ////////    Environment.Exit(0);
+                ////////}
+                ////////else
+                ////////{
+                ////////    return;
+                ////////}
+            }
+
+            //Application.Run(new BrowserForm());
+            Application.Run(new fBrowserTest001());
         }
     }
 }

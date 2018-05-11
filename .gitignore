@@ -19,3 +19,7 @@ bin/x86/Debug/cef_119.vshost.exe
 bin/x86/Debug/cef_119.pdb
 bin/x86/Debug/cef_119.exe
 .vs/cef_119/v14/.suo
+bin/x86/Debug/cef_119.vshost.exe.config
+bin/x86/Debug/cef_119.exe.config
+obj/x86/Debug/cef_119.BrowserForm.resources
+obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
