@@ -15,7 +15,9 @@ namespace cef_119
         private readonly WebView web_view;
         //const string url = "https://www.google.com/maps";
         //const string url = "http://web20office.com/crm/demo/system/login.php?r=/crm/demo";
-        const string url = "file:///G:/_EL/Document/data_el2/book/84-cau-truc-va-cau-vi-du-thong-dung-trong-tieng-anh-giao-tiep.pdf";
+        //const string url = "file:///G:/_EL/Document/data_el2/book/84-cau-truc-va-cau-vi-du-thong-dung-trong-tieng-anh-giao-tiep.pdf";
+        //const string url = "https://get.adobe.com/flashplayer/";
+        const string url = "chrome://flash";
 
         public fBrowserTest001()
         {
