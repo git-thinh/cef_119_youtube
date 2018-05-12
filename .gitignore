@@ -33,3 +33,6 @@ Debug/CefSharp.WinForms.dll
 Debug/CefSharp.Example.pdb
 Debug/CefSharp.Example.dll
 Debug/CefSharp.dll
+bin/x86/Debug/debug.log
+.vs/config/applicationhost.config
+bin/x86/Debug/debug.log

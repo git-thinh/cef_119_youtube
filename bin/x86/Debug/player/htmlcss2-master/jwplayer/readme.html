@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>About the JW Player 5</title>
+    <style type="text/css">
+        body {
+            background-color: #fff;
+            padding: 0 20px;
+            color: #000;
+            font: 13px/18px Arial, sans-serif;
+        }
+
+        a {
+            color: #360;
+        }
+
+        h3 {
+            padding-top: 20px;
+        }
+
+        ol {
+            margin: 5px 0 15px 16px;
+            padding: 0;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <h1>About the JW Player 5</h1>
+    <p>Thank you for downloading the JW Player, the leading open source video player for Flash and HTML5 on the Web.  Not only is the JW Player the easiest way to put video on your website, but we offer a host of other products and services to assist in providing the best possible video experience for your users.</p>
+    <h3>Quickstart</h3>
+    <p>The quickest way to get started is to unzip the file you downloaded (you must have done that if you're reading this!) and copy the contents into a folder called 'jwplayer' at the root of your website.  The end result should be:</p>
+    <ol>
+        <li>{webroot}/jwplayer/player.swf</li>
+        <li>{webroot}/jwplayer/jwplayer.js</li>
+        <li>etc...</li>
+    </ol>
+    <p>You can then view the source of this page and copy the code from the example below onto your webpage.  That's it!  You should see a player on your site.</p>
+    <h3>An Example of the JW Player</h3>
+    <p>Below you see a simple embedded example of the JW Player.</p>
+    <script src="/htmlcss2-master/jwplayer/jwplayer.js"></script>
+    <script>jwplayer.key = "ABCdeFG123456SeVenABCdeFG123456SeVen==";</script>
+
+    <div id="myElement">Loading the player...</div>
+    <script type="text/javascript">
+        //var playerInstance = jwplayer("myElement");
+        //playerInstance.setup({
+        //    width: 640,
+        //    height: 360,
+        //    //file: "//www.youtube.com/watch?v=9fEurt2OZ0I",
+        //    //file: "/files/2.mp4",
+        //    file: "http://demo.filedeo.stream/drive/embed.php?url=emhacnEyRy9jTXNJWjdzVWswVHYvbUw0R0N1c0pkNG1YY21pcm81YkJOdz0=",
+        //    //file: "https://drive.google.com/file/d/0ByaRd0R0Qyatcmw2dVhQS0NDU0U/view",
+        //    //file: "https://r6---sn-8qj-i5oed.googlevideo.com/videoplayback?sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&source=youtube&dur=234.289&initcwndbps=1042500&ei=D6z2WoDyNsuxgQPB4ruYCQ&expire=1526136943&mn=sn-8qj-i5oed%2Csn-i3beln7z&mm=31%2C29&pl=20&mime=video%2Fmp4&id=o-AGrT4c_bkr_PhBjaEQ0PO5gaO48aQ7SIah-UsmwA-OKr&ipbits=0&requiressl=yes&ip=14.177.123.70&mv=m&mt=1526115221&ms=au%2Crdu&signature=0F512CC247A9EF8206EBA5523608B894CD05ACF9.9CA3E2B2E40EEB2EA70A592CAB1952E7BE7668D6&ratebypass=yes&c=WEB&lmt=1510741625396835&key=yt6&itag=22&pcm2cms=yes&fvip=6",
+        //    stretching: "fill",
+        //    //flashplayer: "/jwplayer/5.10/player.swf"
+        //    flashplayer: "/htmlcss2-master/jwplayer/player.swf"
+        //});
+
+        //https://github.com/swfobject/swfobject
+        //https://influxis.com/how-to-embed-the-jw-player/
+        //https://github.com/ArdiArtani/Google-Drive-Player-Script
+
+        jwplayer('myElement').setup({
+            'flashplayer': '/htmlcss2-master/jwplayer/player.swf',
+            'id': 'playerID',
+            'width': '480',
+            'height': '360',
+            'file': 'http://www.youtube.com/watch?v=nWi78UHCuv4&#038;feature=g-vrec',
+            'controlbar': 'bottom'
+        });
+
+    </script>
+
+    <!-- START OF THE PLAYER EMBEDDING TO COPY-PASTE -->
+    <!--<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" width="328" height="200">
+        <param name="movie" value="player.swf" />
+        <param name="allowfullscreen" value="true" />
+        <param name="allowscriptaccess" value="always" />
+        <param name="flashvars" value="file=https://r6---sn-8qj-i5oed.googlevideo.com/videoplayback?sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&source=youtube&dur=234.289&initcwndbps=1042500&ei=D6z2WoDyNsuxgQPB4ruYCQ&expire=1526136943&mn=sn-8qj-i5oed%2Csn-i3beln7z&mm=31%2C29&pl=20&mime=video%2Fmp4&id=o-AGrT4c_bkr_PhBjaEQ0PO5gaO48aQ7SIah-UsmwA-OKr&ipbits=0&requiressl=yes&ip=14.177.123.70&mv=m&mt=1526115221&ms=au%2Crdu&signature=0F512CC247A9EF8206EBA5523608B894CD05ACF9.9CA3E2B2E40EEB2EA70A592CAB1952E7BE7668D6&ratebypass=yes&c=WEB&lmt=1510741625396835&key=yt6&itag=22&pcm2cms=yes&fvip=6" />
+        <embed type="application/x-shockwave-flash"
+               id="player2"
+               name="player2"
+               src="player.swf"
+               width="328"
+               height="200"
+               allowscriptaccess="always"
+               allowfullscreen="true"
+               flashvars="file=https://r6---sn-8qj-i5oed.googlevideo.com/videoplayback?sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&source=youtube&dur=234.289&initcwndbps=1042500&ei=D6z2WoDyNsuxgQPB4ruYCQ&expire=1526136943&mn=sn-8qj-i5oed%2Csn-i3beln7z&mm=31%2C29&pl=20&mime=video%2Fmp4&id=o-AGrT4c_bkr_PhBjaEQ0PO5gaO48aQ7SIah-UsmwA-OKr&ipbits=0&requiressl=yes&ip=14.177.123.70&mv=m&mt=1526115221&ms=au%2Crdu&signature=0F512CC247A9EF8206EBA5523608B894CD05ACF9.9CA3E2B2E40EEB2EA70A592CAB1952E7BE7668D6&ratebypass=yes&c=WEB&lmt=1510741625396835&key=yt6&itag=22&pcm2cms=yes&fvip=6" />
+    </object>-->
+    <!-- END OF THE PLAYER EMBEDDING -->
+    <h3>Support, Documentation and Source Code</h3>
+    <p>If you need help, the LongTail Support Community contains a wealth of information, include a large <a href="http://www.longtailvideo.com/support/jw-player/">library of documentation</a>, a very active <a href="http://www.longtailvideo.com/support/forums/jw-player/">support forum</a>, and a <a href="http://www.longtailvideo.com/support/blog">blog</a> on the latest releases and tips on publishing video.</p>
+    <p>Some documents you might find useful are:</p>
+    <ol>
+        <li><a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12539/supported-video-and-audio-formats">Supported file formats</a>.</li>
+        <li><a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12537/xml-playlist-support">Supported XML playlist formats</a>.</li>
+        <li><a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12536/configuration-options">Complete list of configuration options</a> (for customizing the player).</li>
+        <li><a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12540/javascript-api-reference">Supported JavaScript API calls</a> (for JavaScript interaction).</li>
+        <li><a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/14/skinning-the-jw-player-5">Supported skinning elements</a> (for creating your own graphics).</li>
+        <li><a href="http://developer.longtailvideo.com/trac/roadmap/">Roadmap with full changelogs</a> for each version.</li>
+    </ol>
+    <p>Last, the source code of all different versions of the player can <a href="http://developer.longtailvideo.com/trac/browser/tags">be found here</a>. You can click a version and download the ZIP files (the links are at the bottom).</p>
+    <h3>Licensing</h3>
+    <p>The player is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons License</a>. It allows you to use, modify and redistribute the script, but only for <b>non-commercial</b> purposes.</p>
+    <p>
+        Examples of <b>commercial use</b> include:
+
+        <ul>
+            <li>websites with any advertisements; </li>
+            <li>websites owned or operated by corporations; </li>
+            <li>websites designed to promote other products, such as a band or artist;</li>
+            <li>products (e.g. a CMS) that bundle LongTail products into its offering. </li>
+        </ul>
+
+        If any of the above conditions apply to you, then <a href="http://www.longtailvideo.com/order/" title="Order commercial licenses">please purchase a license for the player</a>.  If you are still unsure whether you need to purchase a license, please <a href="http://www.longtailvideo.com/support/contact-us">contact us</a>.
+    </p>
+    <h3>Related Products</h3>
+    <p>In addition to the JW Player, <a href="http://www.longtailvideo.com">LongTail Video</a> has a suite of products to help you publish video.</p>
+    <p>Learn more about them here:</p>
+    <ul>
+        <li><a href="http://www.longtailvideo.com/addons/skins">Skins</a> - Change the look of your player to match your site.  <a href="http://www.longtailvideo.com/addons/skins">View our library</a>.</li>
+        <li><a href="http://www.longtailvideo.com/addons/plugins">Plugins</a> - Add functionality to your player, like sharing, social networking, analytics, advertising and more.  <a href="http://www.longtailvideo.com/addons/plugins">Find one for you</a>.</li>
+        <li><a href="http://www.longtailvideo.com/referral.aspx?page=pubreferral&ref=xvwjuhgktajeelu">AdSolution</a> - Monetize your videos with LongTail's AdSolution.  Integrate pre-roll, overlay and post-roll ads into your site and starting making money today.  <a href="http://www.longtailvideo.com/referral.aspx?page=pubreferral&ref=xvwjuhgktajeelu">Sign up now</a>.</li>
+        <li><a href="http://www.bitsontherun.com/via/longtailvideo">Bits on the Run</a> - Upload, encode, store, manage and stream your videos with Bits on the Run, LongTail's end-to-end online video platform.  <a href="http://www.bitsontherun.com/via/longtailvideo">Sign up now</a>.</li>
+    </ul>
+
+</body>
+</html>

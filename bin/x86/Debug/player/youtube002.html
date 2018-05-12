@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>SWFObject 2 static publishing example page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script type="text/javascript" src="swfobject.js"></script>
+    <script type="text/javascript">
+        swfobject.registerObject("myId", "9.0.0", "expressInstall.swf");
+    </script>
+</head>
+<body>
+    <div id="muteYouTubeVideoPlayer"></div>
+    <script async=async async=async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            var player;
+            player = new YT.Player('muteYouTubeVideoPlayer', {
+                videoId: 'M7lc1UVf-VE', // YouTube Video ID
+                width: 560,               // Player width (in px)
+                height: 316,              // Player height (in px)
+                playerVars: {
+                    mute: 0,
+                    autoplay: 1,        // Auto-play the video on load
+                    controls: 1,        // Show pause/play buttons in player
+                    showinfo: 0,        // Hide the video title
+                    modestbranding: 1,  // Hide the Youtube Logo
+                    loop: 1,            // Run the video in a loop
+                    fs: 0,              // Hide the full screen button
+                    cc_load_policy: 0, // Hide closed captions
+                    iv_load_policy: 3,  // Hide the Video Annotations
+                    autohide: 0         // Hide video controls when playing
+                },
+                events: {
+                    onReady: function (e) {
+                        e.target.mute();
+                    }
+                }
+            });
+        }
+
+        // Written by @labnol
+    </script>
+
+</body>
+</html>
