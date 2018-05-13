@@ -32,6 +32,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "player", "bin\x86\Debug\pla
 		SlnRelativePath = "bin\x86\Debug\player\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "media", "G:\_EL\Document\data_el2\media\", "{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56820"
+		Debug.AspNetCompiler.PhysicalPath = "G:\_EL\Document\data_el2\media\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56820\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56820"
+		Release.AspNetCompiler.PhysicalPath = "G:\_EL\Document\data_el2\media\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56820\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56820"
+		SlnRelativePath = "G:\_EL\Document\data_el2\media\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +101,14 @@ Global
 		{4A54CA56-F917-461C-92E2-E2B5A143CCA4}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{4A54CA56-F917-461C-92E2-E2B5A143CCA4}.Release|x86.ActiveCfg = Debug|Any CPU
 		{4A54CA56-F917-461C-92E2-E2B5A143CCA4}.Release|x86.Build.0 = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Release|x86.ActiveCfg = Debug|Any CPU
+		{6A9E38B4-12D3-4F18-B379-95FAD9E4DA5D}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

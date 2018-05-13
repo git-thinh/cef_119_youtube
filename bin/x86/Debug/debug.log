@@ -150,3 +150,26 @@
 [0512/165503:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server cdn.plyr.io:443 failed; NSS error code -12286, net_error -113
 [0512/165506:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: cdn.plyr.io:443
 [0512/165506:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server cdn.plyr.io:443 failed; NSS error code -12286, net_error -113
+[0513/064602:WARNING:nss_ssl_util.cc(210)] Unknown SSL error -12190 mapped to net::ERR_SSL_PROTOCOL_ERROR
+[0513/064602:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12190, net_error -107
+[0513/064603:WARNING:nss_ssl_util.cc(210)] Unknown SSL error -12190 mapped to net::ERR_SSL_PROTOCOL_ERROR
+[0513/064603:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12190, net_error -107
+[0513/064603:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: github.com:443
+[0513/064603:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12286, net_error -113
+[0513/064627:WARNING:nss_ssl_util.cc(210)] Unknown SSL error -12190 mapped to net::ERR_SSL_PROTOCOL_ERROR
+[0513/064627:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server cdn.plyr.io:443 failed; NSS error code -12190, net_error -107
+[0513/064627:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: cdn.plyr.io:443
+[0513/064627:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server cdn.plyr.io:443 failed; NSS error code -12286, net_error -113
+[0513/064632:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: cdn.plyr.io:443
+[0513/064632:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server cdn.plyr.io:443 failed; NSS error code -12286, net_error -113
+[0513/072041:WARNING:nss_ssl_util.cc(210)] Unknown SSL error -12190 mapped to net::ERR_SSL_PROTOCOL_ERROR
+[0513/072041:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12190, net_error -107
+[0513/072041:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: github.com:443
+[0513/072041:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12286, net_error -113
+[0513/072046:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server demos.flowplayer.com:443 failed; NSS error code -12286, net_error -113
+[0513/072046:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: demos.flowplayer.com:443
+[0513/072046:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server demos.flowplayer.com:443 failed; NSS error code -12286, net_error -113
+[0513/072104:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: github.com:443
+[0513/072105:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server github.com:443 failed; NSS error code -12286, net_error -113
+[0513/072109:WARNING:http_stream_factory_impl_job.cc(1055)] Falling back to SSLv3 because host is TLS intolerant: demos.flowplayer.com:443
+[0513/072109:ERROR:ssl_client_socket_nss.cc(1542)] handshake with server demos.flowplayer.com:443 failed; NSS error code -12286, net_error -113
