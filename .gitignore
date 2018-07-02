@@ -36,3 +36,15 @@ Debug/CefSharp.dll
 bin/x86/Debug/debug.log
 .vs/config/applicationhost.config
 bin/x86/Debug/debug.log
+.vs/cef_119/v15/.suo
+.vs/cef_119/v15/Server/sqlite3/db.lock
+.vs/cef_119/v15/Server/sqlite3/storage.ide
+bin/x86/Debug/debug.log
+CefSharp.Example/obj/Debug/CefSharp.Example.csproj.CoreCompileInputs.cache
+CefSharp.Test/obj/Debug/CefSharp.Test.csproj.CoreCompileInputs.cache
+CefSharp.WinForms.Example/obj/Debug/CefSharp.WinForms.Example.csproj.CoreCompileInputs.cache
+CefSharp.WinForms.Example/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+CefSharp.WinForms.Example/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+CefSharp.WinForms.Example/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+obj/x86/Debug/cef_119.csproj.CopyComplete
+obj/x86/Debug/cef_119.csproj.CoreCompileInputs.cache

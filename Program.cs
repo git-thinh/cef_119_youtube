@@ -16,7 +16,7 @@ namespace cef_119
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             
+            
             if (!CEF.Initialize(new Settings()))
             {
                 ////////if (Environment.GetCommandLineArgs().Contains("--type=renderer"))
@@ -29,8 +29,14 @@ namespace cef_119
                 ////////}
             }
 
+            var f = new fBrowserTest001();
+            f.Shown += (se, ev) => {
+                f.Width = 800;
+                f.Height = 550;
+                f.ShowDevTools();
+            };
             //Application.Run(new BrowserForm());
-            Application.Run(new fBrowserTest001());
+            Application.Run(f);
         }
     }
 }

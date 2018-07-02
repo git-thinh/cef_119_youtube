@@ -21,7 +21,8 @@ namespace cef_119
         //const string url = "http://demo.filedeo.stream/drive/";
 
         //const string url = "http://media.com:55559/player/jw-5.10.html";
-        const string url = "http://media.com:55559/player/jw-5.10-youtube.html";
+        //const string url = "http://media.com:55559/player/jw-5.10-youtube.html";
+        const string url = "http://localhost:54321/spa_main.html";
 
         bool IRequestHandler.OnBeforeResourceLoad(IWebBrowser browser, IRequestResponse requestResponse)
         {
@@ -112,6 +113,10 @@ namespace cef_119
         }
         #region IRequestHandler Members
 
+        public void ShowDevTools() {
+            
+        }
+
         public fBrowserTest001()
         {
             InitializeComponent();
@@ -119,8 +124,15 @@ namespace cef_119
             web_view.Dock = DockStyle.Fill;
             web_view.RequestHandler = this;
             this.Controls.Add(web_view);
-            this.WindowState = FormWindowState.Maximized;
+            //this.WindowState = FormWindowState.Maximized;
             this.Text = String.Format("Chromium: {0}, CEF: {1}, CefSharp: {2}, Environment: x86", CEF.ChromiumVersion, CEF.CefVersion, CEF.CefSharpVersion);
+
+            var btn = new Button() { Location = new System.Drawing.Point(0,0) , Text = "DEV", Width = 45 };
+            btn.Click += (se, ev) => {
+                web_view.ShowDevTools();
+            };
+            this.Controls.Add(btn);
+            btn.BringToFront();
         }
 
         bool IRequestHandler.OnBeforeBrowse(IWebBrowser browser, IRequest request, NavigationType naigationvType, bool isRedirect)
